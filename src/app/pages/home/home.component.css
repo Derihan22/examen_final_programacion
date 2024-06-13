@@ -1,0 +1,52 @@
+/* Estilos para el tema claro */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background: url('https://img3.wallspic.com/crops/9/8/5/4/14589/14589-textura-fila-malla-blanco-luz-2560x1440.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.header-title {
+  font-size: 3em; 
+  font-family: 'Arial', sans-serif;
+  color: #fff; /* Cambiado a blanco para mejor contraste */
+  margin-bottom: 20px;
+}
+
+.button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1.2em; 
+  background-color: #007bff; 
+  color: #fff; 
+  border: none;
+  border-radius: 4px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el tema oscuro */
+.dark-theme .container {
+  background-color: #333; /* Cambia el fondo a un color oscuro */
+}
+
+.dark-theme .header-title {
+  color: #fff; /* Cambia el color del texto a blanco */
+}
+
+.dark-theme .button {
+  background-color: #007bff; /* Cambiar el color de fondo del botón a azul */
+  color: #333; /* Cambiar el color del texto del botón a oscuro */
+}
+
+.dark-theme .button:hover {
+  background-color: #0056b3; /* Cambiar el color de fondo del botón al pasar el ratón */
+}

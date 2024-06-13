@@ -1,0 +1,77 @@
+/* Estilo general del contenedor */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Columnas autoajustables con un mínimo de 300px */
+  gap: 20px; /* Espacio entre las columnas */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url('https://img3.wallspic.com/crops/9/8/5/4/14589/14589-textura-fila-malla-blanco-luz-2560x1440.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Estilo para el título */
+h1 {
+  font-size: 2.5em;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para la foto del estudiante */
+.student-photo {
+  max-width: 250px;
+  height: auto;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+/* Estilo del contenedor de información */
+.info-container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.info-container p {
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #333;
+}
+
+/* Estilo para el botón */
+button {
+  margin: 20px 0 0;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+button:active {
+  background-color: #004080;
+  transform: translateY(0);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
